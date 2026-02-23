@@ -1,0 +1,29 @@
+# OS / editor files
+.DS_Store
+*.pyc
+__pycache__/
+.ipynb_checkpoints/
+
+# Envs
+.venv/
+.env
+.env.*
+.conda/
+
+# Build artifacts
+dist/
+build/
+*.egg-info/
+
+# Exclude large/derived data
+outputs/**/raw/
+outputs/**/raw/**
+outputs/**/clean/
+outputs/**/clean/**
+
+# Legacy backups
+_legacy_backup/
+
+# Logs
+*.log
+
